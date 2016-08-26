@@ -7,7 +7,7 @@ public class Prob {
         double s, probability;
         s = 0;
         
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
             x = number.nextInt(100) + 1;
             if (x % 2 == 0) {
                 s = s + 1;
